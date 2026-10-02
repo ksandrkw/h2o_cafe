@@ -19,18 +19,9 @@
 ## Важливо
 Ця версія розрахована на Node.js сервер з постійним диском, бо авторизація бота зберігається в `data/h2o.sqlite`.
 
-Не розміщуйте `TELEGRAM_BOT_TOKEN`, `H2O_BOT_PASSWORD` або `TELEGRAM_WEBHOOK_SECRET` у фронтенд-коді.
 
 ## Налаштування
-1. Створіть бота через @BotFather і отримайте token.
-2. Скопіюйте `.env.example` в `.env`.
-3. Встановіть:
-   - `PUBLIC_BASE_URL` — реальний HTTPS-домен сайту;
-   - `TELEGRAM_BOT_TOKEN` — token бота;
-   - `H2O_BOT_PASSWORD` — секретний пароль довжиною 32+ символи;
-   - `TELEGRAM_WEBHOOK_SECRET` — довгий випадковий секрет.
-4. Встановіть залежності: `npm install`.
-5. Запустіть: `npm start`.
+
 6. Власник відкриває бота і надсилає `/start`.
 7. Бот пише `Введіть пароль:`.
 8. Після правильного пароля chat ID зберігається в SQLite.
@@ -58,4 +49,3 @@
 💬 Коментар: ...
 
 
-Local testing: leave PUBLIC_BASE_URL empty. The server reads .env automatically and uses Telegram long polling (getUpdates). Production: set PUBLIC_BASE_URL to the public HTTPS URL to use webhook mode.
