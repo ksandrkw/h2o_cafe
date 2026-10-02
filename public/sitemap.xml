@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Після вибору домену замініть URL нижче на реальний домен H2O cafe. -->
+  <!-- Після вибору домену замінити URL нижче на реальний домен H2O cafe. -->
   <url>
-    <loc>https://ВАШ-ДОМЕН/</loc>
+    <loc>https://ДОМЕН/</loc>
   </url>
 </urlset>
