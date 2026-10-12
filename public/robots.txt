@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 
-# Sitemap: https://ДОМЕН/sitemap.xml
+Sitemap: https://h2ocafe.onrender.com/sitemap.xml
